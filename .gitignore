@@ -1,0 +1,11 @@
+# TLS certs & private keys — NEVER commit
+certbot/
+letsencrypt/
+*.pem
+*.key
+*.crt
+
+# secrets (DDNS tokens, registrar API keys, etc.)
+.env
+*.htpasswd
+EOF
