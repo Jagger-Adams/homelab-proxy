@@ -8,4 +8,4 @@ letsencrypt/
 # secrets (DDNS tokens, registrar API keys, etc.)
 .env
 *.htpasswd
-EOF
+*.log
